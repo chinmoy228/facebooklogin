@@ -1,0 +1,116 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: #dfe3ee;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(2,1fr);
+}
+.left,
+.right,
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+
+  
+}
+.left h1 {
+  font-family: "facebook letter faces";
+  font-size: 60px;
+  color: #1877f2;
+}
+.para {
+  color: #1c1e21;
+  font-size: 30px;
+  
+  font-family: "Roboto Condensed", sans-serif;
+
+  
+}
+.wraper{
+    width: 400px;
+
+}
+.right {
+  width: 400px;
+}
+.right p {
+  font-size: 15px;
+}
+form {
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 16px;
+}
+.login {
+  background-color: #1877f2;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "Arial";
+}
+.login:hover {
+  background-color: #4257b2;
+}
+.forgot {
+  margin: 15px;
+  color: #1877f2;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+.signup {
+  padding-top: 20px;
+  border-top: 1px solid #999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.button {
+  background-color: #42b72a;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  text-align: center;
+}
+.button:hover {
+  background-color: green;
+}
+@media only screen and (max-width:500px){
+  .main {
+      grid-template-columns: 1fr;
+  }
+  
+}
